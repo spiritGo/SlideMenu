@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.spirit.test820.SlideMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:id="@+id/slideMenu"
+    tools:context=".MainActivity">
+
+    <!--<com.example.spirit.test820.MyView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<View-->
+    <!--android:layout_width="@dimen/width"-->
+    <!--android:layout_height="@dimen/width"-->
+    <!--android:background="#ff0000" />-->
+    <!--</com.example.spirit.test820.MyView>-->
+
+    <include layout="@layout/layout_menu" />
+
+    <include layout="@layout/layout_main" />
+
+</com.example.spirit.test820.SlideMenu>
